@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classe", "Classe\Classe.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados", "TiposDeDados\TiposDeDados.csproj", "{4BD45C9E-E604-4794-94DD-61DBEE07C160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{A723873E-B49F-4D2F-8091-EAF494A412F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{A723873E-B49F-4D2F-8091-EAF494A412F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresCondicionais", "OperadoresCondicionais\OperadoresCondicionais.csproj", "{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresCondicionais", "OperadoresCondicionais\OperadoresCondicionais.csproj", "{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{793B8459-281F-40DA-B03C-FBAD86B2FCAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793B8459-281F-40DA-B03C-FBAD86B2FCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793B8459-281F-40DA-B03C-FBAD86B2FCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793B8459-281F-40DA-B03C-FBAD86B2FCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793B8459-281F-40DA-B03C-FBAD86B2FCAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{4BD45C9E-E604-4794-94DD-61DBEE07C160} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{A723873E-B49F-4D2F-8091-EAF494A412F3} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{26D974FB-A8B1-485A-8ECE-4EA3D254FB89} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
+		{793B8459-281F-40DA-B03C-FBAD86B2FCAD} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
