@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAtribuicao", "Ope
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresCondicionais", "OperadoresCondicionais\OperadoresCondicionais.csproj", "{26D974FB-A8B1-485A-8ECE-4EA3D254FB89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{793B8459-281F-40DA-B03C-FBAD86B2FCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{793B8459-281F-40DA-B03C-FBAD86B2FCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticos_ClasseMath", "OperadoresAritmeticos_ClasseMath\OperadoresAritmeticos_ClasseMath.csproj", "{8FAA805F-3C24-44B6-8CAF-32FEC7B52420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAritmeticos_ClasseMath", "OperadoresAritmeticos_ClasseMath\OperadoresAritmeticos_ClasseMath.csproj", "{8FAA805F-3C24-44B6-8CAF-32FEC7B52420}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturasDeRepeticao", "EstruturasDeRepeticao\EstruturasDeRepeticao.csproj", "{5C5F7263-A364-4F8B-8958-9E1447709525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{8FAA805F-3C24-44B6-8CAF-32FEC7B52420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAA805F-3C24-44B6-8CAF-32FEC7B52420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAA805F-3C24-44B6-8CAF-32FEC7B52420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5F7263-A364-4F8B-8958-9E1447709525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5F7263-A364-4F8B-8958-9E1447709525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5F7263-A364-4F8B-8958-9E1447709525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5F7263-A364-4F8B-8958-9E1447709525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +70,8 @@ Global
 		{26D974FB-A8B1-485A-8ECE-4EA3D254FB89} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{793B8459-281F-40DA-B03C-FBAD86B2FCAD} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{8FAA805F-3C24-44B6-8CAF-32FEC7B52420} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
+		{5C5F7263-A364-4F8B-8958-9E1447709525} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
+		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
