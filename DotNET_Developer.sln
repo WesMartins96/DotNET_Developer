@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturasDeRepeticao", "Es
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Listas", "Array_Listas\Array_Listas.csproj", "{484C40D9-C89A-4AA9-9E8F-43524463A83A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484C40D9-C89A-4AA9-9E8F-43524463A83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484C40D9-C89A-4AA9-9E8F-43524463A83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484C40D9-C89A-4AA9-9E8F-43524463A83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484C40D9-C89A-4AA9-9E8F-43524463A83A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{8FAA805F-3C24-44B6-8CAF-32FEC7B52420} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{5C5F7263-A364-4F8B-8958-9E1447709525} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
+		{484C40D9-C89A-4AA9-9E8F-43524463A83A} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
