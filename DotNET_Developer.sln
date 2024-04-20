@@ -19,15 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAritmeticos_Class
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturasDeRepeticao", "EstruturasDeRepeticao\EstruturasDeRepeticao.csproj", "{5C5F7263-A364-4F8B-8958-9E1447709525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4483E1DA-652D-43D0-A1D5-AE2BA2B0C1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Listas", "Array_Listas\Array_Listas.csproj", "{484C40D9-C89A-4AA9-9E8F-43524463A83A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array_Listas", "Array_Listas\Array_Listas.csproj", "{484C40D9-C89A-4AA9-9E8F-43524463A83A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafio_de_Codigo_I", "Desafio_de_Codigo_I", "{84D0B5EF-30A7-4DC4-B996-480326CFBE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondicionamentoRico", "CondicionamentoRico\CondicionamentoRico.csproj", "{A54C92C7-B56A-478B-A17B-B75D82BC4E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondicionamentoRico", "CondicionamentoRico\CondicionamentoRico.csproj", "{A54C92C7-B56A-478B-A17B-B75D82BC4E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeItens", "ListaDeItens\ListaDeItens.csproj", "{64EB7078-23C4-4E87-A972-1F1D0D022497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDeItens", "ListaDeItens\ListaDeItens.csproj", "{64EB7078-23C4-4E87-A972-1F1D0D022497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto_Estacionamento", "Projeto_Estacionamento", "{21D28111-A8C1-468B-86B2-C4063ABEA299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_Estacionamento", "Projeto_Estacionamento\Projeto_Estacionamento.csproj", "{6A85AFE3-7376-4B79-B998-3D957CA971A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{64EB7078-23C4-4E87-A972-1F1D0D022497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64EB7078-23C4-4E87-A972-1F1D0D022497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64EB7078-23C4-4E87-A972-1F1D0D022497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A85AFE3-7376-4B79-B998-3D957CA971A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A85AFE3-7376-4B79-B998-3D957CA971A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A85AFE3-7376-4B79-B998-3D957CA971A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A85AFE3-7376-4B79-B998-3D957CA971A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{484C40D9-C89A-4AA9-9E8F-43524463A83A} = {2880BD78-053A-48D1-8C87-3A6178B22CAC}
 		{A54C92C7-B56A-478B-A17B-B75D82BC4E25} = {84D0B5EF-30A7-4DC4-B996-480326CFBE67}
 		{64EB7078-23C4-4E87-A972-1F1D0D022497} = {84D0B5EF-30A7-4DC4-B996-480326CFBE67}
+		{6A85AFE3-7376-4B79-B998-3D957CA971A4} = {21D28111-A8C1-468B-86B2-C4063ABEA299}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
