@@ -10,6 +10,9 @@ namespace Get_Set.Models
     {
         //validando com get e set
         private string _nome;
+        private int _idade;
+
+        
         public string Nome 
         {
             //usando BodyExpression para facilitar a sintaxe do get, quando a validação é simples
@@ -25,7 +28,11 @@ namespace Get_Set.Models
             }
         }
 
-        private int _idade;
+        public string Sobrenome { get; set; }
+
+        //valor apenas de leitura, sem o Set. e usando Body Expressions.
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
         public int Idade 
         {
             //usando BodyExpression para facilitar a sintaxe do get, quando a validação é simples
@@ -43,7 +50,7 @@ namespace Get_Set.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Olá, me chamo {Nome}, e tenho {Idade} anos!");
+            Console.WriteLine($"Olá, me chamo {NomeCompleto}, e tenho {Idade} anos!");
         }
     }
 }
