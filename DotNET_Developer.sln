@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get_Set", "Get_Set\Get_Set.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodos", "Metodos\Metodos.csproj", "{660C27E2-590C-4B31-A552-6002D430B460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtores", "Construtores\Construtores.csproj", "{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Construtores", "Construtores\Construtores.csproj", "{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +140,7 @@ Global
 		{6B7F9F91-47EC-4312-928F-251B3AD67DA3} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{660C27E2-590C-4B31-A552-6002D430B460} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
+		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
