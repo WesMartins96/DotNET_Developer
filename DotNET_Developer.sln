@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Construtores", "Construtore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Hora", "Data_Hora\Data_Hora.csproj", "{831CBB8C-9A3E-4C32-845C-3783D2424AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831CBB8C-9A3E-4C32-845C-3783D2424AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831CBB8C-9A3E-4C32-845C-3783D2424AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831CBB8C-9A3E-4C32-845C-3783D2424AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831CBB8C-9A3E-4C32-845C-3783D2424AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{660C27E2-590C-4B31-A552-6002D430B460} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{87EF8E7E-2CBB-44AC-A2C9-ADD21FF485FE} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{CC3019E1-522B-466F-9BCD-8FFEDDA52C4B} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
+		{831CBB8C-9A3E-4C32-845C-3783D2424AE2} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
