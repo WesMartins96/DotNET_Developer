@@ -1,0 +1,10 @@
+﻿Tuplas
+   .Tupla fornece sintaxe concisa para agrupar vários
+elementos de dados em uma estrutura de dados leve.
+
+Descarte
+//Podemos ter uma tupla com x valores de diversos tipos, porem se não usarmos todos os valores da tupla,
+//usamos o 'descarte'. Para isso usamos o caractere _ ;
+//exemplo:
+//var (sucesso, linhasArquivo, _) = arquivo.LerArquivo(@"C:\Users\wesley_lopes\Desktop\Codigos_Cursos\DotNET_Developer\Tuplas\Arquivos\arquivo_tupla.txt");
+//Deste modo só usaremos 2 valores de uma tupla criada com 3 valores, 'descartando' um de seus valores;

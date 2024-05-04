@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excecoes", "Excecoes\Exceco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filas_Pilhas_Dictionary", "Filas_Pilhas\Filas_Pilhas_Dictionary.csproj", "{A0056418-E40B-47D3-B68F-F129E8F06843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuplas", "Tuplas\Tuplas.csproj", "{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{A0056418-E40B-47D3-B68F-F129E8F06843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0056418-E40B-47D3-B68F-F129E8F06843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0056418-E40B-47D3-B68F-F129E8F06843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +168,7 @@ Global
 		{831CBB8C-9A3E-4C32-845C-3783D2424AE2} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{58683F2B-7964-4B99-95CF-00CBDE359819} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 		{A0056418-E40B-47D3-B68F-F129E8F06843} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
+		{CDBB5F9A-DB25-4F53-BA53-F2F43D40CD97} = {D9658C1F-06E6-479A-AE0C-0F296225FCBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
