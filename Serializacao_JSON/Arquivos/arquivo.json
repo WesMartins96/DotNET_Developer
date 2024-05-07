@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Produto": "Peças de PC",
+    "Preco": 2500.00,
+    "DataVenda": "2024-05-07T02:33:02.503128-03:00"
+  },
+  {
+    "Id": 2,
+    "Produto": "Licença de Software",
+    "Preco": 399.98,
+    "DataVenda": "2024-05-07T02:33:02.503128-03:00"
+  },
+  {
+    "Id": 3,
+    "Produto": "Water Cooler",
+    "Preco": 79.99,
+    "DataVenda": "2024-05-07T02:33:02.503128-03:00"
+  }
+]
