@@ -61,15 +61,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deserializacao_JSON", "Dese
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto_Hotel", "Projeto_Hotel", "{09949DE1-6732-4DE9-B13D-BE64EEA25F5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_Hotel", "Projeto_Hotel\Projeto_Hotel.csproj", "{E79D7D2C-8B40-4DF4-BFED-7A1757445982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_Hotel", "Projeto_Hotel\Projeto_Hotel.csproj", "{E79D7D2C-8B40-4DF4-BFED-7A1757445982}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafio_de_Codigo_II", "Desafio_de_Codigo_II", "{CF00749F-7828-4DA1-8456-D2A280DC5C08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculandoDano", "CalculandoDano\CalculandoDano.csproj", "{5D80F6D1-9E67-41EA-BF1F-F2089CF4A215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculandoDano", "CalculandoDano\CalculandoDano.csproj", "{5D80F6D1-9E67-41EA-BF1F-F2089CF4A215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardiaoDosAtributos", "GuardiaoDosAtributos\GuardiaoDosAtributos.csproj", "{7FDED09D-B38E-4858-BDA8-5FC0FBCDAA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuardiaoDosAtributos", "GuardiaoDosAtributos\GuardiaoDosAtributos.csproj", "{7FDED09D-B38E-4858-BDA8-5FC0FBCDAA5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidandoForcaSenhaIAM", "ValidandoForcaSenhaIAM\ValidandoForcaSenhaIAM.csproj", "{355812B4-4346-4396-96BA-1141A68D6DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidandoForcaSenhaIAM", "ValidandoForcaSenhaIAM\ValidandoForcaSenhaIAM.csproj", "{355812B4-4346-4396-96BA-1141A68D6DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POO", "POO", "{9991D972-6502-4F37-8FA7-1A1D3F31258F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracao_Encapsulamento", "Abstracao_Encapsulamento\Abstracao_Encapsulamento.csproj", "{2A2D81A9-FA43-4A5F-9375-499D15B83E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +193,10 @@ Global
 		{355812B4-4346-4396-96BA-1141A68D6DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355812B4-4346-4396-96BA-1141A68D6DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355812B4-4346-4396-96BA-1141A68D6DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2D81A9-FA43-4A5F-9375-499D15B83E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2D81A9-FA43-4A5F-9375-499D15B83E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2D81A9-FA43-4A5F-9375-499D15B83E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2D81A9-FA43-4A5F-9375-499D15B83E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +230,7 @@ Global
 		{5D80F6D1-9E67-41EA-BF1F-F2089CF4A215} = {CF00749F-7828-4DA1-8456-D2A280DC5C08}
 		{7FDED09D-B38E-4858-BDA8-5FC0FBCDAA5D} = {CF00749F-7828-4DA1-8456-D2A280DC5C08}
 		{355812B4-4346-4396-96BA-1141A68D6DF4} = {CF00749F-7828-4DA1-8456-D2A280DC5C08}
+		{2A2D81A9-FA43-4A5F-9375-499D15B83E01} = {9991D972-6502-4F37-8FA7-1A1D3F31258F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}
