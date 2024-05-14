@@ -85,11 +85,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_Celular", "Projeto_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafio_de_Codigo_III", "Desafio_de_Codigo_III", "{AAF4DE21-D89D-4421-BD84-A79FA40A443F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemMagico", "ItemMagico\ItemMagico.csproj", "{7C246714-AC38-41A2-AB1F-229B399ECA49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemMagico", "ItemMagico\ItemMagico.csproj", "{7C246714-AC38-41A2-AB1F-229B399ECA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercitoDeRobos", "ExercitoDeRobos\ExercitoDeRobos.csproj", "{09CB2581-2C7B-41EC-876C-3C6C1E7A6A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercitoDeRobos", "ExercitoDeRobos\ExercitoDeRobos.csproj", "{09CB2581-2C7B-41EC-876C-3C6C1E7A6A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescubraCarta", "DescubraCarta\DescubraCarta.csproj", "{387E97B7-773C-4142-8C49-DB69B7412C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DescubraCarta", "DescubraCarta\DescubraCarta.csproj", "{387E97B7-773C-4142-8C49-DB69B7412C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs_Banco_de_Dados", "APIs_Banco_de_Dados", "{C6454EA5-18F4-4B8A-9A77-6E322CFF8741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tabelas_TiposDados", "Tabelas_TiposDados", "{BA2B6706-9128-4282-A690-3677372E0B4C}"
+	ProjectSection(SolutionItems) = preProject
+		Tabelas_TiposDados.txt = Tabelas_TiposDados.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,6 +284,7 @@ Global
 		{7C246714-AC38-41A2-AB1F-229B399ECA49} = {AAF4DE21-D89D-4421-BD84-A79FA40A443F}
 		{09CB2581-2C7B-41EC-876C-3C6C1E7A6A16} = {AAF4DE21-D89D-4421-BD84-A79FA40A443F}
 		{387E97B7-773C-4142-8C49-DB69B7412C06} = {AAF4DE21-D89D-4421-BD84-A79FA40A443F}
+		{BA2B6706-9128-4282-A690-3677372E0B4C} = {C6454EA5-18F4-4B8A-9A77-6E322CFF8741}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51E2F15E-58D3-4BCD-ADBD-A62D3FA6AFD8}

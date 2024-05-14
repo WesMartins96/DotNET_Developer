@@ -1,0 +1,75 @@
+
+--Selecionar tudo de uma tabela
+SELECT * FROM Clientes;
+
+
+--Ordenando os resultados 
+SELECT * FROM Clientes ORDER BY Nome;
+SELECT * FROM Clientes ORDER BY Sobrenome;
+--Ordernar os resultados de forma decrescente 
+SELECT * FROM Clientes ORDER BY Nome DESC;
+--Ordenar os resultados por varias colunas
+SELECT * FROM Clientes ORDER BY Nome, Sobrenome;
+
+
+--Trazer determinadas colunas na consulta.
+SELECT Nome, Sobrenome, Email FROM Clientes;
+
+
+--Utilizando WHERE, para filtrar determinados dados.
+SELECT * FROM Clientes 
+WHERE Nome = 'Jill' AND Sobrenome = 'Williams';
+
+
+--Utilizando LIKE, para filtrar.
+SELECT * FROM Clientes 
+WHERE Nome LIKE 'G%' OR Nome LIKE 'W%'; --Filtra com nomes que começam com a letra G e W
+
+
+--Utilizando INSERT, para inserir dados na tabela 
+--Temos 2 modos de faze-lo.
+--1 -> INSERT, Especificando os nomes da colunas
+INSERT INTO Clientes (Nome, Sobrenome, Email, AceitaComunicados, DataCadastro)
+VALUES ('Gael', 'Martins', 'Email@email.com', 1, GETDATE()) --GETDATE, pega o horario atual
+--2 -> INSERT, Omitindo os nomes das colunas
+INSERT INTO Clientes VALUES ('Wesley', 'Martins', 'Email@email.com', 0, GETDATE());
+INSERT INTO Clientes VALUES ('Beatriz', 'Menezes', 'Email@email.com', 1, GETDATE());
+
+
+
+--Realizando UPDATE, para atualizar um registro na tabela
+--sempre realizar UPDATES com WHERE.
+UPDATE Clientes 
+SET Email = 'EmailAtualizado@email.com'
+WHERE Id = 46;
+--Importante realizarmos UPDATES pelo Id sempre.
+UPDATE Clientes 
+SET AceitaComunicados = 0
+WHERE Id = 45;
+
+
+--realizar alterações(UPDATE / DELETE) no banco de uma forma segura.
+BEGIN TRAN
+ROLLBACK
+
+
+
+--Utilizando DELETE, para deletar um registro na tabela
+--sempre realizar DELETES com WHERE.
+DELETE Clientes WHERE Id = 12;
+
+
+
+--Criar uma Tabela.
+--IDENTITY, o banco vai gerenciar o id, auto-incrementando o valor do id.
+--PRIMARY KEY, chave será unica não vai se repetir.
+--NOT NULL, Obrigatório ter um registro.
+--NULL, pode não ser preenchido.
+CREATE TABLE Produtos (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	Nome varchar(255) NOT NULL,
+	Cor varchar(50) NULL,
+	Preco decimal(13,2) NOT NULL,
+	Tamanho varchar(5) NULL,
+	Genero char(1) NULL
+)
