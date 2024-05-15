@@ -103,6 +103,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manipulando_Dados", "Manipu
 		ManipulandoDados.txt = ManipulandoDados.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto_Banco_De_Dados", "Projeto_Banco_De_Dados", "{A3A6E61B-9D2C-473E-9CFF-C346836416C1}"
+	ProjectSection(SolutionItems) = preProject
+		Criacao_Projeto.sql = Criacao_Projeto.sql
+		Projeto_Banco_de_Dados.sql = Projeto_Banco_de_Dados.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
