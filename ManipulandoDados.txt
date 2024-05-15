@@ -1,0 +1,104 @@
+--Manipulando Dados no SQL
+SELECT * FROM Produtos;
+
+--usando COUNT, retorna o numero de linhas da tabela com uma condição.
+SELECT COUNT(*) QuantidadeProdutos FROM Produtos; --QuantidadeProdutos é um nome para a função apenas
+SELECT COUNT(*) QuantidadeProdutosTamanhoM FROM Produtos WHERE Tamanho = 'M';
+
+
+--usando SUM, para realizar uma soma de valores inteiros
+SELECT SUM(Preco) PrecoTotal FROM Produtos; --retorna a soma de todos os Preco registrados na tabela
+SELECT Sum(Preco) PrecoTotalTamanhoM FROM Produtos WHERE Tamanho = 'M'; --PrecoTotalTamanhoM é um nome generico para a função
+
+
+--usando MAX, MIN e AVG
+SELECT MAX(Preco) ProdutoMaisCaro FROM Produtos;
+SELECT MAX(Preco) ProdutoMaisCaroTamanhoGG FROM Produtos WHERE Tamanho = 'GG';
+SELECT MIN(Preco) ProdutoMaisBarato FROM Produtos;
+SELECT MIN(Preco) ProdutoMaisBaratoTamanhoG FROM Produtos WHERE Tamanho = 'G';
+SELECT AVG(Preco) FROM Produtos;
+
+
+--funções para tipo TEXTO
+--concatenar texto
+SELECT 
+	Nome + ' , Cor: ' + Cor NomeProduto --NomeProduto é apenas um nome generico para a tabela
+FROM Produtos;
+
+--UPPER e LOWER
+SELECT 
+	Nome + ' , Cor: ' + Cor + ' - ' + Genero NomeProdutoCompleto,
+	UPPER(Nome) NomeMaiusculo,  --maiusculo
+	LOWER(Cor) CorMinusculo --minusculo
+FROM Produtos;
+
+
+--Criar uma coluna a tabela (ALTER TABLE | ADD)
+ALTER TABLE Produtos
+ADD DtCadastro DATETIME2; --DtCadastro é o nome da coluna / DATETIME2 é o tipo da coluna
+
+--Apagar uma Coluna da Tabela (ALTER TABLE | DROP COLUMN)
+ALTER TABLE Produtos
+DROP COLUMN DtCadastro;
+
+--fazer um UPDATE para alterar a data para a data atual a todos os registros
+UPDATE Produtos SET DtCadastro = GETDATE();
+
+
+--Formatando Data
+SELECT 
+	FORMAT(DtCadastro, 'dd-MM-yyyy') DataCadastro,
+	FORMAT(DtCadastro, 'dd-MM-yyyy hh:mm') DataCadastro12hr,
+	FORMAT(DtCadastro, 'dd-MM-yyyy HH:mm') DataCadastro24hr
+FROM Produtos;
+
+
+--(GROUP BY) agrupamento de dados com base em uma determinada condição
+SELECT Tamanho, COUNT(*) Quantidade 
+FROM Produtos 
+WHERE Tamanho <> '' -- <> sinal de 'diferente de' '' neste caso
+GROUP BY Tamanho
+ORDER BY Quantidade DESC;
+--sempre respeitar a ordem dos comandos
+
+
+
+--Criando tabela com PK e FK
+CREATE TABLE Enderecos (
+	Id INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
+	IdCliente int NULL,
+	Rua varchar(255) NULL,
+	Bairro varchar(255) NULL,
+	Cidade varchar(255) NULL,
+	Estado char(2) NULL,
+
+	--criar referencia FK, para outra tabela
+	CONSTRAINT FK_Enderecos_Clientes FOREIGN KEY(IdCliente)
+	REFERENCES Clientes(Id)
+)
+SELECT * FROM Enderecos;
+INSERT INTO Enderecos VALUES (4, 'Rua teste', 'Bairro teste', 'Cidade teste', 'SP');
+
+
+
+--(INNER JOIN), para junção de tabelas na consulta
+--Juntar as duas consultas abaixo:
+--SELECT * FROM Clientes WHERE Id = 4;
+--SELECT * FROM Enderecos WHERE IdCliente = 4;
+SELECT * FROM Clientes
+INNER JOIN Enderecos ON Clientes.Id = Enderecos.IdCliente
+WHERE Clientes.Id = 4;
+
+
+--(INNER JOIN) trazendo dados escolhidos na consulta
+SELECT
+	C.Nome,
+	C.Sobrenome,
+	C.Email,
+	E.Rua,
+	E.Bairro,
+	E.Cidade
+FROM 
+	Clientes C --usamos um ALIAS (C) neste caso. para deixar a consulta mais facil de ler
+INNER JOIN Enderecos E ON C.Id = E.IdCliente -- ALIAS (E) para o Endereco
+WHERE C.Id = 4;
